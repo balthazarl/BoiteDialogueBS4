@@ -208,7 +208,7 @@
       if (!this.Config.TexteOk) return Chaine;
       if(!this.Config.OnOk) return Chaine;
 		  Chaine+="<input value='"+this.Config.TexteOk+"' ";
-		  Chaine+="class='btn btn-primary BoutonOk' type='button'>";    
+		  Chaine+="class='btn btn-primary BoutonOk' type='button' data-dismiss='modal' usesubmitbehavior='false'>";    
 			// ----------------------------------------------------------------------
       return Chaine;
 			// ----------------------------------------------------------------------
