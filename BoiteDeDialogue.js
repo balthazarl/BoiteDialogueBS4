@@ -251,7 +251,7 @@
 			var _$content=this.Wrap(this.$Elem, "<div class='modal-content'></div>");
       var _$anim=this.Wrap(_$content,"<div class='modal-Animation'></div>");
       var _$dial=this.Wrap(_$anim,"<div class='modal-dialog'></div>");
-      var _$modal=this.Wrap(_$dial,"<div class='modal in'></div>");
+      var _$modal=this.Wrap(_$dial,"<div class='modal fade'></div>");
 			// ----------------------------------------------------------------------
       this.AjouterHeader();
       this.AjouterFooter();
